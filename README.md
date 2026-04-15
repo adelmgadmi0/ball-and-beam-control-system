@@ -1,9 +1,11 @@
 # Ball and Beam Control System
 
-A real-time control system that stabilizes a ball on a beam using an Arduino, a stepper motor, and a Time-of-Flight (ToF) sensor.
+![System Setup](system.jpg)
 
 ## Overview
-The system measures the ball position using a ToF sensor and adjusts the beam angle via a stepper motor to keep the ball at a desired position.
+A real-time control system that stabilizes a ball on a beam using an Arduino, a stepper motor, and a Time-of-Flight (ToF) sensor.
+
+The system measures the ball position and adjusts the beam angle to maintain a desired position.
 
 Two control strategies were implemented and compared:
 - PID control
@@ -30,17 +32,22 @@ State-space optimal control method that minimizes a cost function for better sta
 
 ## Results
 Both controllers were tested and their responses were plotted:
-- PID: simple and effective but with some overshoot
-- LQR: smoother response with improved stability
+- PID: simple and effective but with some overshoot  
+- LQR: smoother response with improved stability  
+
+## Images
+
+### PID Response
+![PID Response](pid_test.jpg)
+
+### LQR Response
+![LQR Response](lqr_test.jpg)
 
 ## Demo
 (Add your video or GIF here)
 
-## Image
-(Add your setup image here)
-
 ## What I Learned
 - Implementation of real-time control systems  
-- Difference between classical (PID) and modern (LQR) control  
+- Difference between PID and LQR control  
 - Sensor integration and noise handling  
 - System tuning and performance analysis

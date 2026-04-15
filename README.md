@@ -44,7 +44,7 @@ Both controllers were tested and their responses were plotted:
 ![LQR Response](lqr_test.jpg)
 
 ## Demo
-(Add your video or GIF here)
+![LQR Response](lqr_test.gif)
 
 ## What I Learned
 - Implementation of real-time control systems  

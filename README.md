@@ -11,6 +11,12 @@ Two control strategies were implemented and compared:
 - PID control
 - LQR (Linear Quadratic Regulator)
 
+## Team
+This project was developed by:
+- Adel Mgadmi
+- Firas Mahjoub
+- Louey Dali
+
 ## Hardware
 - Arduino
 - Stepper motor
